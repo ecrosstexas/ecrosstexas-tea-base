@@ -8,8 +8,16 @@
 		"url": ""
 	},
 	{
+		"platform": "twitter",
+		"url": "https://www.twitter.com/ecrosstexas"
+	},
+	{
 		"platform": "github",
 		"url": "https://www.github.com/ecrosstexas"
+	},
+	{
+		"platform": "facebook",
+		"url": "https://www.facebook.com/ecrosstexas"
 	},
 	{
 		"platform": "instagram",
@@ -20,10 +28,6 @@
 		"url": "https://www.linkedin.com/in/ecrosstexas"
 	},
 	{
-		"platform": "piedpiper",
-		"url": ""
-	},
-	{
 		"platform": "pinterest",
 		"url": ""
 	},
@@ -31,10 +35,7 @@
 		"platform": "rss",
 		"url": "/feed.xml"
 	},
-	{
-		"platform": "twitter",
-		"url": "https://www.twitter.com/ecrosstexas"
-	},
+
 	{
 		"platform": "youtube",
 		"url": ""
