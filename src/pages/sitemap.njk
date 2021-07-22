@@ -18,7 +18,7 @@ eleventyNavigation:
 <h2>Blog Posts</h2>
 <ul>
 {% for page in collections.post %}
-        <li><a href="{{ page.url | url }}">{{ page.data.title }}</a></li>
+        <li><a href="{{ page.url | url }}">{{ page.data.seo.title or page.data.title }}</a></li>
     {% endfor %}
 </ul>
 
