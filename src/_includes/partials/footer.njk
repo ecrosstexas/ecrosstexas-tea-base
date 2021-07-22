@@ -1,0 +1,33 @@
+<footer>
+  <div class="bg-white border-t border-gray-200">
+    <div class="max-w-5xl px-4 pt-4 pb-12 sm:px-20 md:flex md:items-center md:justify-between lg:px-32">
+      <div class="flex justify-center md:order-2">
+
+      {# Display Social icons from \_data/social.json #}
+      {% for site in social %}
+        {% if site.url %}
+        {% set platform = ['svg/', site.platform, '.njk'] %}
+          <a aria-label="Link to {{ site.platform }}" alt="Link to {{ site.platform }}" class="mx-2 w-6 h-6 {{ colors.socialIcons }} hover:{{ colors.socialIconsHover }}" href="{{ site.url | url }}">
+            {% include platform | join %}
+          </a>
+        {% endif %}
+      {% endfor %}
+
+      </div>
+      <div class="text-sm leading-6 {{ colors.footerText | default('text-gray-400') }} mt-8 md:mt-0 md:order-1">
+        <p>
+          Copyright &copy; 2001-{{ build.year }}, {{ meta.title }}. Some rights reserved. <br />ecrosstexas is a trademark of Eric Wallace.</p>
+        </p>
+        <p>
+          Enthusiastically built in Plano, Texas with <br />
+          <a class="underline" target="_blank" href="https://11ty.dev" alt="11ty Static Site Generator">11ty</a>,
+          <a class="underline" target="_blank" href="https://tailwindcss.com" alt="TailwindCSS Utility-First CSS Framework">TailwindCSS</a>,
+          <a class="underline" target="_blank" href="https://github.com/alpinejs/alpine" alt="Alpine.js : Think of it like Tailwind for JavaScript">Alpine.js</a>,
+          and hosted at <a class="underline" target="_blank" href="https://netlify.com" alt="Netflify - Server Less, Do More">Netlify.</a>
+        </p>
+        <p><em>Soli Deo Gloria</em></p>
+      </div>
+    </div>
+  </div>
+</footer>
+

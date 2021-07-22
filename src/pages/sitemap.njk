@@ -1,0 +1,25 @@
+---
+title: Site Map
+description: A site map for humans
+permalink: /sitemap/index.html
+layout: page
+eleventyNavigation:
+  key: main
+  title: Site Map # as it will appear in the nav
+  order: 5    # order to display in the nav
+---
+<h2>Pages</h2>
+<ul>
+{% for page in collections.pages %}
+        <li><a href="{{ meta.url }}{{ page.url | url }}">{{ page.data.seo.title or page.data.title }}</a></li>
+    {% endfor %}
+</ul>
+
+<h2>Blog Posts</h2>
+<ul>
+{% for page in collections.post %}
+        <li><a href="{{ meta.url }}{{ page.url | url }}">{{ page.data.title }}</a></li>
+    {% endfor %}
+</ul>
+
+<p>A <a href="{{ meta.url }}/sitemap.xml">site map for robots</a> is also available.</p>

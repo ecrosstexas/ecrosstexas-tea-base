@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+tags: post
+---
+{% set postAuthor = author | default(meta.author, true) %}
+
+{% if images.feature %}
+  <figure class="w-screen h-48 -mx-12 -mt-12 sm:h-64 lg:h-96 sm:-mx-20 lg:-mx-32 ">
+    <img class="object-cover w-full h-full" src="/assets/images/{{ images.feature }}" alt="">
+  </figure>
+{% endif %}
+
+<article class="mt-12">
+  <h1>{{ title }}</h1>
+  <p>
+    <small>
+      <time datetime="{{ date | dateToFormat("yyyy-MM-dd") }}">
+        {{ date | dateToFormat("dd LLL yyyy") }}
+      </time> by {{ postAuthor }}
+    </small>
+  </p>
+
+  {{ layoutContent | safe }}
+</article>

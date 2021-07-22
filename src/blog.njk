@@ -1,0 +1,23 @@
+---
+title: My Posts
+date: 2020-08-05
+layout: layouts/page.njk
+eleventyNavigation:
+  key: main
+  title: Weblog # as it will appear in the nav
+  order: 2    # order to display in the nav
+seo:
+  title: Blog Posts
+  description: Posts from the mind of ecrosstexas
+---
+
+{% set postslist = collections.post %}
+
+{#
+  Allows a user to easily change the Post List Style.
+  Change the 'postListStyle' value in /_data/structure.json.
+  NOTE: Can make this a select in the CMS?
+#}
+{% set postlist = ['components/', structure.postListStyle, '.njk'] %}
+{% include postlist | join %}
+

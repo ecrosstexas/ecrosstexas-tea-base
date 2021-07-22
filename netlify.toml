@@ -1,0 +1,6 @@
+# This file tells Netlify how to build the site
+# If you aren't using Netlify then you can delete this file
+
+[build]
+  command = "npm run build"
+  publish = "_site"
