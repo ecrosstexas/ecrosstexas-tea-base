@@ -27,8 +27,8 @@
     "dev:postcss": "postcss src/assets/css/tailwind.css -o _site/assets/css/style.css --watch",
     "postcss": "postcss src/assets/css/tailwind.css -o out.css --watch",
     "dev": "run-p clean dev:* --print-label",
-    "build:eleventy": "eleventy",
-    "build:postcss": " postcss src/assets/css/tailwind.css -o _site/assets/css/style.css",
+    "build:eleventy": "ELEVENTY_ENV=production eleventy",
+    "build:postcss": "NODE_ENV=production postcss src/assets/css/tailwind.css -o _site/assets/css/style.css --verbose",
     "build": "NODE_ENV=production ELEVENTY_ENV=production run-s clean build:*  --print-label",
     "local": "run-s build build:* && http-server ./_site -p 8081 --print-label"
   },
