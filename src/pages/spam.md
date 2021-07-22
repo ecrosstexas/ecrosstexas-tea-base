@@ -12,7 +12,7 @@ seo:
   image:
 ---
 
-<img alt="Can of Hormel SPAM" src="http://ecrosstexas.com/images/canofspam.png" width="205" height="201" />
+<img alt="Can of Hormel SPAM" src="/images/canofspam.png" width="205" height="201" />
 
 > If you want proof of the doctrine of Original Sin, I suspect that spam and viruses come close.
 
