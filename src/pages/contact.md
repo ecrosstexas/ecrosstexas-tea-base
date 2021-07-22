@@ -1,7 +1,7 @@
 ---
 title: Contact
 permalink: /contact/index.html
-layout: layouts/contact.njk
+layout: page
 eleventyNavigation:
   key: main
   title: Contact # as it will appear in the nav
