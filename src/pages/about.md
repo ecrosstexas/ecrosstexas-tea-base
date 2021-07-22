@@ -12,7 +12,7 @@ eleventyNavigation:
   order:  3 # order to display in the nav
 seo:
   title: About Us # overrides 'title' above on both Page and META
-  description:
+  description: "About ecrosstexas.com, a modern digital ranch created by Eric Wallace"
   image:
 ---
 ecrosstexas.com is the personal website of [Eric Wallace](/eric/).
