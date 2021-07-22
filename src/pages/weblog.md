@@ -42,3 +42,5 @@ Want to see other great weblogs?  Look no further than this list.
 ## weblogs in the news
 
 As mentioned above, weblogs are one of the hottest trends on the Internet today.  The media started paying serious attention to weblogs following the events of September 11, 2001.  J.D. Lasica is compiling a list of media coverage relating to [Weblogs and the News: Where News, Journalism and Weblogs Intersect](https://www.jdlasica.com/journalism/weblogs-and-the-news/)
+
+**Originally posted**: {{ page.date }}
