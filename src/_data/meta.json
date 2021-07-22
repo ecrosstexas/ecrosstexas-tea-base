@@ -1,21 +1,21 @@
 {
 	"title": "ecrosstexas.com",
-	"url": "https://ecrosstexas.com/",
+	"url": "https://ecrosstexas.com",
 	"description": "Eric Wallace's a digital garden, a commonplace book, a modern day cabinet of curiosities.",
 	"author": "Eric Wallace",
 	"authorEmail": "ecrosstexas@gmail.com",
-	"authorUrl": "https://ericwallace.org/",
+	"authorUrl": "https://ericwallace.org",
 	"image": "/assets/images/meta/default.png",
 	"lang": "en",
 	"locale": "en_us",
 	"type": "website",
 	"location": "Plano, Texas, USA",
 	"twitterSite": "ecrosstexas",
-  "twitterCreator": "ecrosstexas",
+	"twitterCreator": "ecrosstexas",
 
 	"netlifyCMS": "true",
-
-  "indieauth": "true",
+	
+	"indieauth": "true",
  	"indieauthAuth": "https://indieauth.com/auth",
-  "indieauthToken": "https://tokens.indieauth.com/token"
+	"indieauthToken": "https://tokens.indieauth.com/token"
 }
