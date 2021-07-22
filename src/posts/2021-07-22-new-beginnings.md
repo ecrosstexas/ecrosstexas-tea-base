@@ -13,6 +13,7 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
+    - site news
 ---
 
 Enough goofing around I'm starting over with [Eleventy](http://11ty.dev/).  I've barely been blogging for years now.  I took my [WordPress](https://wordpress.org) site down almost 2 years ago after the site was compromised thanks to an insecure plugin I was running. I've had every intention of getting my site back up running again with [Django](https://www.djangoproject.com). It's a great tool, but I don't really have the time to devote to developing and running a full-stack site in Django.
