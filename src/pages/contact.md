@@ -4,8 +4,12 @@ permalink: /contact/index.html
 layout: page
 eleventyNavigation:
   key: main
-  title: Contact # as it will appear in the nav
+  title: Contact eross # as it will appear in the nav
   order: 4    # order to display in the nav
+seo:
+  title:  Contact # overrides 'title' above on both Page and META
+  description:
+  image:
 ---
 
 You can reach Eric Wallace:
