@@ -1,0 +1,34 @@
+
+backend:
+  # Use netlify identity as backend
+  name: git-gateway
+  branch: main
+  ### enable below lines for github integration ###
+  # name: github
+  # repo: ecrosstexas/ecrosstexas-tea-base
+
+# Please run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+
+site_url: https://www.ecrosstexas.com/
+display_url: https://www.ecrosstexas.com/
+logo_url: https://www.ecrosstexas.com/img/apple-touch-icon-76x76.png
+
+# publish_mode: editorial_workflow
+
+media_folder: 'src/assets/images/' # Media files will be stored in the repo under src/assets/images/posts
+public_folder: '/assets/images/' # The src attribute for uploaded media will begin with assets/images/uploads
+
+collections:
+  - label: "Blog" # Used in the UI
+    name: "blog" # Used in routes, e.g., /admin/collections/blog
+    folder: "src/blog/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}/{{month}}/{{slug}}" # Filename template, e.g., YYYY/MM/title.md
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - { name: "title", label: "Title" }
+      - { name: "description", label: "Description" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "body", label: "Body", widget: "markdown" }
