@@ -6,10 +6,6 @@ date: 2009-08-06
 layout: page
 body_class: eric
 eleventyExcludeFromCollections: false
-eleventyNavigation:
-  key: main
-  title: # as it will appear in the nav
-  order:  # order to display in the nav
 seo:
   title: Eric T. Wallace - Just a sinner saved by Grace # overrides 'title' above on both Page and META
   description: ecrosstexas himself. Christian. Husband. Father of 3. PCA Ruling Elder.
