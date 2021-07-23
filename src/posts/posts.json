@@ -2,5 +2,6 @@
 	"layout": "layouts/post.njk",
 	"permalink": "posts/{{ title | slug }}/index.html",
 	"tags": ["post"],
-	"author": "{{ meta.author }}"
+	"author": "{{ meta.author }}",
+	"type": "article"
 }
