@@ -19,6 +19,10 @@
 <meta property="og:url" content="{{ absolutePageUrl }}">
 <meta property="og:locale" content="{{ meta.locale }}">
 <meta property="og:image" content="{{ ogImage | url | absoluteUrl(build.url) }}">
+<meta property="og:type" content="{{ type or meta.type }}" />
+{% if PageType == "article" %}
+<meta property="article:published_time" content="{{ page.date.toISOString() }}" />
+{% endif %}
 {#- Twitter Card #}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="{{ meta.twitterSite }}">
@@ -26,9 +30,20 @@
 <meta name="twitter:title" content="{{ seo.title or title }} | {{ meta.title }}">
 <meta name="twitter:description" content="{{ seo.description or excerpt or meta.description }}">
 <meta name="twitter:image" content="{{ ogImage | url | absoluteUrl(build.url) }}">
+<meta name="twitter:image:alt" content="image.description" />
+{#- Robtos #}
+{% if noindex == true %}
+  <meta name="robots" content="noindex,follow">
+{% endif %}
 {#- Favicon #}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}">
 <link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-32x32.png' | url }}" sizes="32x32">
 <link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-16x16.png' | url }}" sizes="16x16">
+{#- IndieAuth #}
+{% if meta.indieauth == "true" %}
+<link rel="authorization_endpoint" href="{{ indieauthAuth }}">
+<link rel="token_endpoint" href="{{ indieauthToken }}">
+{% endif %}
 {#- RSS Feed #}
 {#- <link type="application/atom+xml" rel="alternate" href="{{ build.url }}/feed.xml" title="{{ meta.title }}"> #}
+{# <link rel="alternate" title="{{ meta.title }} JSON Feed" type="application/feed+json" href="/feed.json" /> #}
