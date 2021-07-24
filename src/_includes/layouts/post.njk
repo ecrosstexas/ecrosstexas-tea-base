@@ -16,9 +16,15 @@ tags: post
     <small>
       <time datetime="{{ date | dateToFormat("yyyy-MM-dd") }}">
         {{ date | dateToFormat("dd LLL yyyy") }}
-      </time> by {{ postAuthor }}
+      </time>
+      {%- for tag in tags | filterTagList -%}
+      {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+      {%- endfor %}
     </small>
   </p>
 
   {{ layoutContent | safe }}
+
+
 </article>
