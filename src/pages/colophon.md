@@ -3,7 +3,7 @@ title:  Colophon # will be overwritten by SEO.title below
 description: Regarding the publication of ecrosstexas.com
 permalink: /colophon/index.html
 date:
-layout:
+layout: page
 body_class: colophon
 eleventyExcludeFromCollections: true
 seo:
@@ -13,11 +13,11 @@ seo:
 ---
 ecrosstexas.com has been my personal web space since I discovered blogging in 2001. Through the years it has housed various incarnations of my [blog](/blog/), [photos](/photos/), personal projects and whatever other random stuff that interests me. The current design was launched in July of 2021.
 
-The site is currently hosted on [Netlify](https://www.netlify.com) and is published using the [Eleventy](https://www.11ty.dev/) static site generator.
+The site is currently hosted on <a target="_blank" href="https://netlify.com" alt="Netflify - Server Less, Do More">Netlify.</a> and is published using the <a target="_blank" href="https://11ty.dev" alt="11ty Static Site Generator">11ty</a> static site generator.
 
 ## Copyright
 
-Unless otherwise noted all original content is copyright &copy; 2001-2021 Eric Wallace.
+Unless otherwise noted, all original content is copyright &copy; 2001-2021 Eric Wallace.
 
 ## Standards
 
@@ -31,6 +31,8 @@ Run the [W3C Markup Validator](http://validator.w3.org) against {{ meta.siteURL 
 
 - [HTML5](https://www.w3.org/html/)
 - [CSS3]()
+- <a target="_blank" href="https://tailwindcss.com" alt="TailwindCSS Utility-First CSS Framework">TailwindCSS</a>
+- <a target="_blank" href="https://github.com/alpinejs/alpine" alt="Alpine.js : Think of it like Tailwind for JavaScript">Alpine.js</a>
 - [IndieAuth](https://indieauth.net)
 - [Webmentions](https://www.w3.org/TR/webmention/)
 - [Microformats](http://microformats.org)
