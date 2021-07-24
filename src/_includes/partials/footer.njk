@@ -7,7 +7,7 @@
       {% for site in social %}
         {% if site.url %}
         {% set platform = ['svg/', site.platform, '.njk'] %}
-          <a aria-label="Link to {{ site.platform }}" alt="Link to {{ site.platform }}" class="mx-2 w-6 h-6 {{ colors.socialIcons }} hover:{{ colors.socialIconsHover }}" href="{{ site.url | url }}">
+          <a aria-label="Link to {{ site.platform }}" alt="Link to {{ site.platform }}" class="mx-2 w-6 h-6 {{ colors.socialIcons }} hover:{{ colors.socialIconsHover }}" href="{{ site.url | url }}" rel="me">
             {% include platform | join %}
           </a>
         {% endif %}
@@ -19,13 +19,10 @@
           Copyright &copy; 2001-{{ build.year }}, {{ meta.title }}. Some rights reserved. <br />ecrosstexas is a trademark of Eric Wallace.</p>
         </p>
         <p>
-          Enthusiastically built in Plano, Texas with <br />
-          <a class="underline" target="_blank" href="https://11ty.dev" alt="11ty Static Site Generator">11ty</a>,
-          <a class="underline" target="_blank" href="https://tailwindcss.com" alt="TailwindCSS Utility-First CSS Framework">TailwindCSS</a>,
-          <a class="underline" target="_blank" href="https://github.com/alpinejs/alpine" alt="Alpine.js : Think of it like Tailwind for JavaScript">Alpine.js</a>,
-          and hosted at <a class="underline" target="_blank" href="https://netlify.com" alt="Netflify - Server Less, Do More">Netlify.</a>
+          <a href="/colophon/">Made</a> in Plano, Texas.</p>
+        <p>
+          <em>Soli Deo Gloria</em>
         </p>
-        <p><em>Soli Deo Gloria</em></p>
       </div>
     </div>
   </div>

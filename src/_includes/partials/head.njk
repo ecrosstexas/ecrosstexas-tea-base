@@ -40,10 +40,16 @@
 <link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-32x32.png' | url }}" sizes="32x32">
 <link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-16x16.png' | url }}" sizes="16x16">
 {#- IndieAuth #}
-{% if meta.indieauth == "true" %}
-<link rel="authorization_endpoint" href="{{ indieauthAuth }}">
-<link rel="token_endpoint" href="{{ indieauthToken }}">
-{% endif %}
+<link rel="authorization_endpoint" href="{{ meta.indieauthAuth }}">
+<link rel="token_endpoint" href="{{ meta.indieauthToken }}">
 {#- RSS Feed #}
 {#- <link type="application/atom+xml" rel="alternate" href="{{ build.url }}/feed.xml" title="{{ meta.title }}"> #}
 {# <link rel="alternate" title="{{ meta.title }} JSON Feed" type="application/feed+json" href="/feed.json" /> #}
+{# Dev Mode #}
+    {% if helpers.environment === "development" %}
+       <div class="announcement" aria-label="">
+        <p class="text-center">
+		      <span class="emoji">🚧</span> This site is currently running in development mode.<span class="emoji">🚧</span>
+        </p>
+      </div>
+    {% endif %}
