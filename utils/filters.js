@@ -23,7 +23,6 @@ module.exports = {
 		}).toFormat(String(format))
   },
 
-
   /**
    * Inline and Minify CSS in src/_includes/layouts/base.njk
    */
