@@ -1,7 +1,11 @@
 ---
-permalink: /tags/
+title: Tags
+description:
 layout: layouts/base.njk
+permalink: /tags/
+eleventyExcludeFromCollections: true
 ---
+
 <h1>List of tags in use</h1>
 
 {% for tag in collections.tagList %}

@@ -13,7 +13,7 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - site-news
+    - sitenews
 ---
 
 ecrosstexas.com has moved through a number of CMS/weblog tools since coming online in 2001. The move in to [Movable Type](http://www.movabletype.org/) has been a joy. The biggest difference between MT and [pMachine](http://www.pmachine.com), [b2/CafeLog](http://www.cafelog.com) and [phpWebSite](http://phpwebsite.appstate.edu/) is that our MT-driven web pages are [baked, not fried](http://www.aaronsw.com/weblog/000404).

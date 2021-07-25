@@ -13,8 +13,8 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - Martin-Luther
-    - Reformation-Day
+    - MartinLuther
+    - ReformationDay
 ---
 
 Reformation Day is a celebration of God's saving work. It is the recovery of the great truths of Scripture: Justification (being made right with God) by Faith alone, by Grace alone, through Christ alone, for the Glory of God alone. And our highest and final authority is Scripture alone.

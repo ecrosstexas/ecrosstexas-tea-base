@@ -13,7 +13,7 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - site-news
+    - sitenews
 ---
 
 In the course of 13 months, *the texas blog* has now changed blog engines four times.

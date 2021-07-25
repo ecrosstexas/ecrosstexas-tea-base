@@ -4,7 +4,7 @@ description: Eric, Erik, Erick, Eriq
 permalink: /famous-erics/index.html
 date: 2006-10-19
 layout: page
-body_class: 
+body_class:
 eleventyExcludeFromCollections: false
 seo:
   title:  # overrides 'title' above on both Page and META

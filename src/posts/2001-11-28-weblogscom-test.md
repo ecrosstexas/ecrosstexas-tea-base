@@ -13,7 +13,7 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - site-news
+    - sitenews
 ---
 
 This is a test of the Weblogs.com Ping script.

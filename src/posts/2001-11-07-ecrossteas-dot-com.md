@@ -13,7 +13,7 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - site-news
+    - sitenews
 ---
 
 ecrosstexas finally has a functioning main menu and topic database. Expect more great changes.

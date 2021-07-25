@@ -13,8 +13,8 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - Chase-Caks-Church
-    - Vertical-devotion
+    - ChaseOaksChurch
+    - VerticalDevotion
 ---
 
 Cross-posted at [Vertical](http://www.verticaldevotion.com/?p=7970)
