@@ -2,7 +2,7 @@
 title: weblogscom-test
 date: 2001-11-28T00:58:00
 author: Eric Wallace
-excerpt: 
+excerpt:
 draft: false
 seo:
   title: Weblogs.com Test # if left blank, title above used
@@ -13,7 +13,7 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - site news
+    - site-news
 ---
 
 This is a test of the Weblogs.com Ping script.

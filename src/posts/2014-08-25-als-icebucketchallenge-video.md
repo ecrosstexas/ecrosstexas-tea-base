@@ -2,7 +2,7 @@
 title: "ALS #IceBucketChallenge Video"
 date: 2014-08-25
 author: Eric Wallace
-excerpt: 
+excerpt:
 draft: false
 seo:
   title: # if left blank, title above used
@@ -14,7 +14,7 @@ images: # relative to /src/assets/images/
   slide:
 tags:
     - IceBucketChallenge
-    - serpas-family 
+    - Serpas-family
 ---
 
 Yes, we are a little slow, but we accepted the multiple Ice Bucket Challenges from [Beckett and Jaxon Robertson](https://www.facebook.com/korie.robertson), [Brooke Serpas Lee](https://www.facebook.com/brooke.serpas) and [Brittany Serpas](https://www.facebook.com/brittany.serpas), and [Dayne Masters](https://www.facebook.com/dayne.masters). We don't check Facebook all that often, so apologies for the delay and last week was pretty crazy getting ready for back to school.

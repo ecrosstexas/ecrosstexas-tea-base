@@ -2,7 +2,7 @@
 title: "How Conservative/Liberal Are You?"
 date: 2016-03-29
 author: Eric Wallace
-excerpt: 
+excerpt:
 draft: false
 seo:
   title: # if left blank, title above used
@@ -13,7 +13,7 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - Politics
+    - politics
 ---
 
 

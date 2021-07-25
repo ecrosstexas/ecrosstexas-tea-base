@@ -2,7 +2,7 @@
 title: "Unity of the Body of Christ"
 date: 2013-02-20
 author: Eric Wallace
-excerpt: 
+excerpt:
 draft: false
 seo:
   title: # if left blank, title above used
@@ -13,8 +13,8 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - chase-oaks-church
-    - vertical-devotion
+    - Chase-Caks-Church
+    - Vertical-devotion
 ---
 
 Cross-posted at [Vertical](http://www.verticaldevotion.com/?p=7970)

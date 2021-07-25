@@ -13,8 +13,8 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-  - pca
-  - elders
+  - PCA
+  - Elders
 ---
 
 

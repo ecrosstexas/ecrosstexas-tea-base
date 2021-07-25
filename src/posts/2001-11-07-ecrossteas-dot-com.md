@@ -2,7 +2,7 @@
 title: ecrosstexas-dot-com
 date: 2001-11-07T02:44:00
 author: Eric Wallace
-excerpt: 
+excerpt:
 draft: false
 seo:
   title: erosstexas.com # if left blank, title above used
@@ -13,7 +13,7 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - site news
+    - site-news
 ---
 
 ecrosstexas finally has a functioning main menu and topic database. Expect more great changes.

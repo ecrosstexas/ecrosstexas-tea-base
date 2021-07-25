@@ -2,7 +2,7 @@
 title: "So you want to see 50 Shades?"
 date: 2015-02-13
 author: Eric Wallace
-excerpt: 
+excerpt:
 draft: false
 seo:
   title: # if left blank, title above used
@@ -13,8 +13,8 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - Entertainment
-    - Movies
+    - entertainment
+    - movies
 ---
 
 _50 Shades of Grey_ opens this weekend. It seems like everyone is talking about seeing this movie. You want to go see it, right?
@@ -51,13 +51,13 @@ https://twitter.com/TGC/status/565528584182571008
 
 ## Videos
 
-- 50 Things to Know About “Fifty Shades of Grey”  
-    
+- 50 Things to Know About “Fifty Shades of Grey”
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/okcS6IW9VF0" frameborder="0" allowfullscreen></iframe>
-    
-- 4 Lies About Sexuality in Fifty Shades of Grey  
-    
+
+- 4 Lies About Sexuality in Fifty Shades of Grey
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/dD0SS3_HLSI" frameborder="0" allowfullscreen></iframe>
-    
+
 
 Do you still want to go see this filth?

@@ -2,7 +2,7 @@
 title: More Change
 date: 2002-12-17T12:37:15
 author: Eric Wallace
-excerpt: 
+excerpt:
 draft: false
 seo:
   title: More Change # if left blank, title above used
@@ -13,7 +13,7 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
-    - site news
+    - site-news
 ---
 
 In the course of 13 months, *the texas blog* has now changed blog engines four times.

@@ -19,7 +19,7 @@ tags: post
       </time>
       {%- for tag in tags | filterTagList -%}
       {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+      <a href="{{ tagUrl | url }}" class="post-tag">#{{ tag }}</a>
       {%- endfor %}
     </small>
   </p>
