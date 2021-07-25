@@ -11,7 +11,7 @@ seo:
   description: ecrosstexas himself. Christian. Husband. Father of 3. PCA Ruling Elder.
   image:
 tags:
-  - eric-wallace
+  - Eric-Wallace
 ---
 Welcome to ecrosstexas. My name is Eric Wallace and I am your servant in Christ. This is my personal website and home to my <a href="/blog/">weblog</a>.</p>
         <p>I am not <a href="/famous-erics/">famous</a> and the only fame I
