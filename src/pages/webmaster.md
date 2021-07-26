@@ -1,7 +1,7 @@
 ---
 title:  Webmaster Tools # will be overwritten by SEO.title below
 description: 
-permalink: /webmaster
+permalink: /webmaster/index.html
 layout: page
 body_class:
 eleventyExcludeFromCollections: false
