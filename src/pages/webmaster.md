@@ -11,6 +11,11 @@ seo:
   image:
 ---
 
+## Hosting
+
+- [Netlify](https://www.netlify.com/)
+
 ## Search Engines
-[Google Search Console]()
-[Bing Webmaster Tools](https://www.bing.com/webmasters/home?siteUrl=http://www.ecrosstexas.com/)
+
+- [Google Search Console](https://search.google.com/search-console/welcome)
+- [Bing Webmaster Tools](https://www.bing.com/webmasters/home?siteUrl=http://www.ecrosstexas.com/)
