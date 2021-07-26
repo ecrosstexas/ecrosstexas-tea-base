@@ -1,7 +1,7 @@
 ---
 title:  Webmaster Tools # will be overwritten by SEO.title below
 description: 
-permalink: /webmaster/index.html
+permalink: /admin/webmaster/index.html
 layout: page
 body_class:
 eleventyExcludeFromCollections: false
@@ -21,5 +21,8 @@ seo:
 
 ## Search Engines
 
-- [Google Search Console](https://search.google.com/search-console/welcome)
+- [Google Search Console](https://search.google.com/search-console?resource_id=https%3A%2F%2Fwww.ecrosstexas.com%2F)
 - [Bing Webmaster Tools](https://www.bing.com/webmasters/home?siteUrl=http://www.ecrosstexas.com/)
+
+## Analytics
+- [Google Analytics](https://analytics.google.com/analytics/)
