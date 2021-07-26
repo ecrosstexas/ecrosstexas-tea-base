@@ -11,6 +11,10 @@ seo:
   image:
 ---
 
+## Source
+
+- [GitHub](https://github.com/ecrosstexas/ecrosstexas-tea-base
+
 ## Hosting
 
 - [Netlify](https://www.netlify.com/)
