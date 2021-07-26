@@ -1,5 +1,5 @@
 ---
-title: Why Im Thankful
+title: Why I'm Thankful
 date: 2013-11-29
 author: Eric Wallace
 excerpt:

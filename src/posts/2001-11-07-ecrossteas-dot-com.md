@@ -1,5 +1,5 @@
 ---
-title: ecrosstexas-dot-com
+title: ecrosstexas.com
 date: 2001-11-07T02:44:00
 author: Eric Wallace
 excerpt:

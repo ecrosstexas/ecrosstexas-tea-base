@@ -1,5 +1,5 @@
 ---
-title: weblogscom-test
+title: Weblogs.com Test
 date: 2001-11-28T00:58:00
 author: Eric Wallace
 excerpt:
