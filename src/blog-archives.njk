@@ -1,0 +1,30 @@
+---
+title: ecrossblog archvies
+permalink: /blog/archives/index.html
+description: All of my posts in one place, by year and month
+layout: layouts/page.njk
+---
+
+<p>All the ecrossblog posts, chronologically ordered from now back in time.
+<div class="post-listing">
+	<ol class="archives">
+	{% for year in archives() %}
+		<li>
+			<div><h2 id="{{ year.title }}">{{ year.title }}</h2></div>
+
+			<ol>
+			{% for month in year.months %}
+				<div><h3>{{ month.title }}</h3></div>
+
+				<ol class="diaryEntries">
+				{% for entry in month.entries %}
+					<li>{{ entry.date }} - <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+				{% endfor %}
+				</ol>
+			{% endfor %}
+			</ol>
+		</li>
+	{% endfor %}
+	</ol>
+</div>
+
