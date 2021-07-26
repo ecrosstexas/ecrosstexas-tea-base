@@ -32,7 +32,7 @@
     "build": "NODE_ENV=production ELEVENTY_ENV=production run-s clean build:*  --print-label",
     "build:local": "NODE_ENV=production netlify build",
     "local": "run-s build build:* && http-server ./_site -p 8081 --print-label",
-    "start": "netlify dev",
+    "start": "netlify dev"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
