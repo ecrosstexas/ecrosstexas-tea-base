@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+tags: pages
+---
+<title>test</title>
+
+<h1>{{ seo.title | default(title, true) }}</h1>
+<p>{{ seo.description }}</p>
+
+{{ content | safe }}
