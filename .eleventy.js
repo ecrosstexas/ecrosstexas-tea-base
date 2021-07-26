@@ -4,9 +4,9 @@ const pluginNavigation  = require('@11ty/eleventy-navigation')
 const syntaxHighlight   = require('@11ty/eleventy-plugin-syntaxhighlight')
 
 
-const filters           = require('./utils/filters.js')
-const shortcodes        = require('./utils/shortcodes.js')
-const pairedshortcodes  = require('./utils/paired-shortcodes.js')
+const filters           = require('./src/_11ty/filters.js')
+const shortcodes        = require('./src/_11ty/shortcodes.js')
+const pairedshortcodes  = require('./src/_11ty/paired-shortcodes.js')
 
 
 module.exports = function (eleventyConfig) {
@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
 	 */
 	eleventyConfig.addPlugin(pluginRss)
 	eleventyConfig.addPlugin(pluginNavigation)
-  eleventyConfig.addPlugin(syntaxHighlight)
+  	eleventyConfig.addPlugin(syntaxHighlight)
 
 
 
@@ -102,7 +102,7 @@ eleventyConfig.addFilter("readableDate", dateObj => {
 	 * @link https://www.11ty.dev/docs/config/#add-your-own-watch-targets
 	 */
 	eleventyConfig.addWatchTarget('./src/assets/css')
-	// eleventyConfig.addWatchTarget('./utils/*.js')
+	// eleventyConfig.addWatchTarget('./_11ty/*.js')
 	eleventyConfig.addWatchTarget('./tailwind.config.js')
 
  	/**
