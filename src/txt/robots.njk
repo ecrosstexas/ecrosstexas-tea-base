@@ -3,9 +3,11 @@
 permalink: /robots.txt
 layout: null
 eleventyExcludeFromCollections: true
+sitemapIgnore: true
 ---
-Sitemap: {{ meta.url }}/sitemap.xml
 
-# Allow crawling of all content
+# Allow crawling of all content except admin folder
 User-agent: *
 Disallow: /admin
+
+Sitemap: {{ meta.url }}/sitemap.xml
