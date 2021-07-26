@@ -3,13 +3,20 @@
 permalink: /sitemap.xml
 layout: null
 eleventyExcludeFromCollections: true
+sitemapIgnore: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for page in collections.all %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    {%- for item in collections.all %}
+    {%- if (item.data.sitemapIgnore !== true) and (item.data.draft !== true) %}
         <url>
             <loc>{{ meta.url }}{{ page.url | url }}</loc>
-            <lastmod>{{ page.date.toISOString() }}</lastmod>
+            {# <lastmod>{{ page.date.toISOString() }}</lastmod> #}
+            <lastmod>{{ item.data.updated or item.date }}</lastmod>
+            <changefreq>monthly</changefreq>
+		    <priority>0.5</priority>
         </url>
-    {% endfor %}
+    {%- endif %}
+    {%- endfor %}
 </urlset>
+{# see https://gitlab.com/mikestreety/mikestreety/-/blob/master/app/content/additional-config/sitemap.njk #} 
