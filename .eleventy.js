@@ -18,6 +18,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss)
 	eleventyConfig.addPlugin(pluginNavigation)
   	eleventyConfig.addPlugin(syntaxHighlight)
+	eleventyConfig.addPlugin(require("@mikestreety/11ty-utils"))  
 
 
 
