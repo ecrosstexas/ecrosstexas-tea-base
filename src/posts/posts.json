@@ -1,7 +1,7 @@
 {
 	"layout": "layouts/post.njk",
-	"permalink": "posts/{{ title | slug }}/index.html",
-	"tags": ["post"],
+	"permalink": "posts/{{ title | slugify }}/index.html",
+	"tags": "post",
 	"author": "{{ meta.author }}",
 	"type": "article"
 }
