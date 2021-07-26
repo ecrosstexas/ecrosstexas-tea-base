@@ -13,7 +13,7 @@ seo:
 
 ## Source
 
-- [GitHub](https://github.com/ecrosstexas/ecrosstexas-tea-base
+- [GitHub](https://github.com/ecrosstexas/ecrosstexas-tea-base)
 
 ## Hosting
 
