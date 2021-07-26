@@ -1,6 +1,7 @@
 {
 	"title": "ecrosstexas.com",
-	"url": "https://ecrosstexas.com",
+	"url": "https://www.ecrosstexas.com",
+  "domain": "ecrosstexas.com",
 	"description": "Eric Wallace's a digital garden, a commonplace book, a modern day cabinet of curiosities.",
 	"author": "Eric Wallace",
 	"authorEmail": "ecrosstexas@gmail.com",
@@ -14,7 +15,7 @@
 	"twitterCreator": "ecrosstexas",
 
 	"netlifyCMS": "true",
-	
+
 	"indieauth": "true",
  	"indieauthAuth": "https://indieauth.com/auth",
 	"indieauthToken": "https://tokens.indieauth.com/token"

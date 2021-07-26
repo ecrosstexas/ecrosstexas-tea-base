@@ -4,3 +4,6 @@
 [build]
   command = "npm run build"
   publish = "_site"
+
+[[plugins]]
+  package = "netlify-plugin-cache-folder"

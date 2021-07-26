@@ -29,8 +29,10 @@
     "dev": "run-p clean dev:* --print-label",
     "build:eleventy": "ELEVENTY_ENV=production eleventy",
     "build:postcss": "NODE_ENV=production postcss src/assets/css/tailwind.css -o _site/assets/css/style.css --verbose",
+    "build:local": "NODE_ENV=production netlify build",
     "build": "NODE_ENV=production ELEVENTY_ENV=production run-s clean build:*  --print-label",
-    "local": "run-s build build:* && http-server ./_site -p 8081 --print-label"
+    "local": "run-s build build:* && http-server ./_site -p 8081 --print-label",
+    "start": "netlify dev"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
@@ -49,5 +51,9 @@
     "rimraf": "^3.0.2",
     "tailwindcss": "^2.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "netlify-plugin-cache-folder": "^0.0.8",
+    "node-fetch": "^2.6.1"
+  }
 }
