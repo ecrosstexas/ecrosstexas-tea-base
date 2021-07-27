@@ -81,7 +81,7 @@ Welcome to ecrosstexas. My name is Eric Wallace and I am your servant in Christ.
             flourish.</p>
         <p>Still can&#8217;t pinpoint my politics? Neither can I. I am a Libertarian-Republican who rests everything at the
             feet of the cross. The <a
-                href="http://www.ecrosstexas.com/blog/tag/political-compass">political compass</a> can
+                href="https://www.ecrosstexas.com/blog/tag/political-compass">political compass</a> can
             plot me, but I don&#8217;t have a party.</p>
         <h2>Everything Else</h2>
         <p>I enjoy <a href="http://readernaut.com/ecrosstexas/">reading</a>, <a
@@ -94,7 +94,7 @@ Welcome to ecrosstexas. My name is Eric Wallace and I am your servant in Christ.
                 href="http://www.facebook.com/ecrosstexas">Facebook</a> and <a
                 href="http://twitter.com/ecrosstexas">Twitter (@ecrosstexas)</a>,
             you can learn more about me by reading my <a href="/blog/">weblog</a> or just the <a
-                title="Posts about Eric" href="http://www.ecrosstexas.com/blog/tag/eric-wallace">Eric
+                title="Posts about Eric" href="https://www.ecrosstexas.com/tag/ericwallace">Eric
                 specific posts</a>. Google (Big Brother?) has a pretty complete <a title="Google Profile of Eric Wallace"
                 href="http://www.google.com/profiles/ecrosstexas">profile of
                 me</a> as well.</p>

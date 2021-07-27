@@ -21,7 +21,7 @@ seo:
 ## Search Engines
 
 - [Google Search Console](https://search.google.com/search-console?resource_id=https%3A%2F%2Fwww.ecrosstexas.com%2F)
-- [Bing Webmaster Tools](https://www.bing.com/webmasters/home?siteUrl=http://www.ecrosstexas.com/)
+- [Bing Webmaster Tools](https://www.bing.com/webmasters/home?siteUrl=https://www.ecrosstexas.com/)
 
 ## Analytics
 - [Google Analytics](https://analytics.google.com/analytics/)
