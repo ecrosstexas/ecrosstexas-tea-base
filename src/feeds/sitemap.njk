@@ -10,7 +10,7 @@ sitemapIgnore: true
     {%- for item in collections.all %}
     {%- if (item.data.sitemapIgnore !== true) and (item.data.draft !== true) %}
         <url>
-            <loc>{{ meta.url }}{{ page.url | url }}</loc>
+            <loc>{{ meta.url }}{{ item.url }}</loc>
             {# <lastmod>{{ page.date.toISOString() }}</lastmod> #}
             <lastmod>{{ item.data.updated or item.date }}</lastmod>
             <changefreq>monthly</changefreq>
