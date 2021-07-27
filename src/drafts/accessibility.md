@@ -5,7 +5,6 @@ permalink: /accessibility/index.html
 date:
 layout: page
 body_class: acessibility
-eleventyExcludeFromCollections: true
 seo:
   title:  Accessibility Statement # overrides 'title' above on both Page and META
   description:

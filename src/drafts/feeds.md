@@ -3,7 +3,6 @@ title: Syndicated Feeds
 description: Subscribe to our feeds
 layout: page
 permalink: /feeds/index.html
-eleventyExcludeFromCollections: true
 ---
 ## Available Feeds
 -[RSS]({{ meta.url }}/feeds/rss.xml)

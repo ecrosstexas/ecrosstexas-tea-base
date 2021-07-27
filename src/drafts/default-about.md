@@ -3,7 +3,6 @@ title: About Title # will be overwritten by SEO.title below
 permalink: /default-about/index.html
 date: 2020-08-05
 layout: page
-eleventyExcludeFromCollections: true
 seo:
   title: About Us # overrides 'title' above on both Page and META
   description:

@@ -11,5 +11,6 @@ seo: #uncomment 'seo' and then any elements to use them
 ---
 
 ![](/assets/images/featured/longhorn.jpg)
+<src image="/assets/images/featured/longhorn.jpg" />
 
 We are breaking ground today, expect construction activity for the foreseeable future.

@@ -13,6 +13,7 @@ seo:
 tags:
   - entertainment
 ---
+
 ## Streaming Platforms
 - [Netflix](https://www.netflix.com/)
 - [Apple TV+](https://tv.apple.com)

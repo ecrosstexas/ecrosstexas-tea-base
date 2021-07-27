@@ -2,7 +2,7 @@
 title:  About # will be overwritten by SEO.title below
 description:
 permalink: /about/index.html
-date:  2021-07-22
+date:  2021-07-22T12:00:00
 layout: page
 body_class:
 eleventyExcludeFromCollections: false
@@ -11,10 +11,11 @@ eleventyNavigation:
   title: About # as it will appear in the nav
   order:  3 # order to display in the nav
 seo:
-  title: About Us # overrides 'title' above on both Page and META
+  title: About # overrides 'title' above on both Page and META
   description: "About ecrosstexas.com, a modern digital ranch created by Eric Wallace"
   image:
 ---
+
 ecrosstexas.com is the personal website of [Eric Wallace](/eric/).
 
 As things often do, it didn't start out that way. Back in late 2001, I had the idea to create a Slashdot-like site for Texas.  This is from my original about page back then:

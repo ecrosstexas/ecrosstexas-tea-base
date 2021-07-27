@@ -2,7 +2,7 @@
 title:  Wishlist # will be overwritten by SEO.title below
 description: If you're feeling extra generous
 permalink: /wishlist/index.html
-date:  2021-07-23
+date:  2021-07-23T12:00:00
 layout: page
 body_class:
 eleventyExcludeFromCollections: false

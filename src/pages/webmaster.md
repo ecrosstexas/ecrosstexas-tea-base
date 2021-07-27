@@ -4,7 +4,6 @@ description:
 permalink: /admin/webmaster/index.html
 layout: page
 body_class:
-eleventyExcludeFromCollections: false
 seo:
   title:  # overrides 'title' above on both Page and META
   description:

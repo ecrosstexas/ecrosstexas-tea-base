@@ -5,7 +5,6 @@ permalink: /docs/index.html
 date:  2020-09-20
 layout: page
 body_class:
-eleventyExcludeFromCollections: false
 seo:
   title: Documentation # overrides 'title' above on both Page and META
   description: When you really need to read the documentation.

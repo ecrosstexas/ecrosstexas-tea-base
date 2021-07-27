@@ -3,7 +3,6 @@ title: Uses
 description: A page detailing developer setups, gear, software and configs.
 layout: page
 permalink: /uses/index.html
-eleventyExcludeFromCollections: true
 ---
 
 ## This site is built using:

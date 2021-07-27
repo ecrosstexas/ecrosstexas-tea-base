@@ -5,13 +5,13 @@ permalink: /eric/index.html
 date: 2009-08-06
 layout: page
 body_class: eric
-eleventyExcludeFromCollections: false
 seo:
   title: Eric T. Wallace - Just a sinner saved by Grace # overrides 'title' above on both Page and META
   description: ecrosstexas himself. Christian. Husband. Father of 3. PCA Ruling Elder.
   image:
 tags:
   - EricWallace
+  - pages
 ---
 Welcome to ecrosstexas. My name is Eric Wallace and I am your servant in Christ. This is my personal website and home to my <a href="/blog/">weblog</a>.</p>
         <p>I am not <a href="/famous-erics/">famous</a> and the only fame I
@@ -28,7 +28,7 @@ Welcome to ecrosstexas. My name is Eric Wallace and I am your servant in Christ.
             we attend <a href="http://www.chaseoaks.org/">Chase Oaks Church</a>
             and lead the Rev 5:9 <a
                 href="http://www.chaseoaks.org/get-connected/adults/lifegroup/">Life
-                Group</a> with my wife. Shannon and I also both service in <a
+                Group</a> with my wife. Shannon and I also both serve in <a
                 href="http://www.chaseoaks.org/get-connected/children/">KidZone</a>.
         </p>
         <h2>Career</h2>

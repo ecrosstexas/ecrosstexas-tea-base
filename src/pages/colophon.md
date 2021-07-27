@@ -2,10 +2,9 @@
 title:  Colophon # will be overwritten by SEO.title below
 description: Regarding the publication of ecrosstexas.com
 permalink: /colophon/index.html
-date:
+date: 2006-10-04T22:56:00
 layout: page
 body_class: colophon
-eleventyExcludeFromCollections: true
 seo:
   title:  # overrides 'title' above on both Page and META
   description:

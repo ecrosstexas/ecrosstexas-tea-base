@@ -5,13 +5,13 @@ permalink: /weblog/index.html
 date:  2001-11-10
 layout: page
 body_class:
-eleventyExcludeFromCollections: false
 seo:
   title: "What is a Weblog?" # overrides 'title' above on both Page and META
   description:
   image:
 tags:
   - weblogs
+  - pages
 ---
 
 You might be asking yourself, what the heck is a weblog?  It is an odd term and we take no credit for developing it.  That credit goes to [Jorn Barger](http://www.robotwisdom.com/).  To answer your question in simple terms, weblogs are Web sites that are continually updated, pointing to articles elsewhere on the Web, usually accompanied by user comments.  Weblogs are one of the hottest trends on the Internet today.
