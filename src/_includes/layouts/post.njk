@@ -18,7 +18,7 @@ tags: post
         {{ date | dateToFormat("dd LLL yyyy") }}
       </time>
       {%- for tag in tags | filterTagList -%}
-      {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+      {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset -%}
       <a href="{{ tagUrl | url }}" class="post-tag">#{{ tag }}</a>
       {%- endfor %}
     </small>
