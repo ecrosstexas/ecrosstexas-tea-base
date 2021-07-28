@@ -5,7 +5,7 @@ layout: page
 eleventyNavigation:
   key: main
   title: Contact # as it will appear in the nav
-  order: 4    # order to display in the nav
+  order: 5   # order to display in the nav
 seo:
   title: Contact # overrides 'title' above on both Page and META
   description:

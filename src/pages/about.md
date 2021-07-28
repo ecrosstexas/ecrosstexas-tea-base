@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: false
 eleventyNavigation:
   key: main
   title: About # as it will appear in the nav
-  order:  3 # order to display in the nav
+  order:  4 # order to display in the nav
 seo:
   title: About # overrides 'title' above on both Page and META
   description: "About ecrosstexas.com, a modern digital ranch created by Eric Wallace"
