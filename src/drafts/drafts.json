@@ -1,5 +1,8 @@
 {
 	"layout": "post",
+	"permalink": "drafts/{{ page.fileSlug }}/index.html",
+	"excludeFromSitemap": true,
+	"eleventyExcludeFromCollections": true,
 	"draft": true,
-    "eleventyExcludeFromCollections": true
+    
 }
