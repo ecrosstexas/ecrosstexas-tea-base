@@ -1,0 +1,8 @@
+{# Dev Mode #}
+    {% if (process.env.ELEVENTY_ENV !== 'production') %}
+       <div class="announcement" aria-label="">
+        <p class="text-center">
+		      <span class="emoji">🚧</span> This site is currently running in development mode.<span class="emoji">🚧</span>
+        </p>
+      </div>
+    {% endif %}

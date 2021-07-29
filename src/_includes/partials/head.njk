@@ -9,9 +9,12 @@
 {% endif %}
 {%- endset -%}
 {#- General #}
-<meta name="author" content="{{ author or meta.author }}">
 <meta name="description" content="{{ seo.description or excerpt or meta.description }}">
-<link rel="canonical" href="{{ absolutePageUrl }}">
+{#- Robtos #}
+{% if noindex == true %}
+<meta name="robots" content="noindex,follow">
+{% endif %}
+<link type="text/plain" rel="author" href="/humans.txt" />
 {#- Open Graph #}
 <meta property="og:site_name" content="{{ meta.title }}">
 <meta property="og:title" content="{{ seo.title or title }} | {{ meta.title }}">
@@ -19,8 +22,9 @@
 <meta property="og:url" content="{{ absolutePageUrl }}">
 <meta property="og:locale" content="{{ meta.locale }}">
 <meta property="og:image" content="{{ ogImage | url | absoluteUrl(build.url) }}">
+<meta property="og:image:alt" content="Image description">
 <meta property="og:type" content="{{ type or meta.type }}" />
-{% if PageType == "article" %}
+{% if type == "article" %}
 <meta property="article:published_time" content="{{ page.date.toISOString() }}" />
 {% endif %}
 {#- Twitter Card #}
@@ -31,16 +35,25 @@
 <meta name="twitter:description" content="{{ seo.description or excerpt or meta.description }}">
 <meta name="twitter:image" content="{{ ogImage | url | absoluteUrl(build.url) }}">
 <meta name="twitter:image:alt" content="image.description" />
-{#- Robtos #}
-{% if noindex == true %}
-  <meta name="robots" content="noindex,follow">
-{% endif %}
+<meta name="twitter:dnt" content="on">
+{# Browser Themes #}
+{#
+  <meta name="theme-color" content="#FF00FF">
+  <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#FFF" media="(prefers-color-scheme: light)">
+#}
 {#- Favicon #}
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}">
+{# <link rel="icon" href="/favicon.ico"> NETLIFY REDIRECT TO THIS URL
+KILL THE NEXT TWO FAVICONS (32 & 16)
 <link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-32x32.png' | url }}" sizes="32x32">
 <link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-16x16.png' | url }}" sizes="16x16">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}">
+<link rel="manifest" href="/my.webmanifest">
+#}
+<link rel="canonical" href="{{ absolutePageUrl }}">
 {# Site Verification #}
-{#- IndieAuth #}
+{#- IndieAuth --- NEED TO UPDATE TO ONLY SHOW ON HOME PAGE #}
 <link rel="authorization_endpoint" href="{{ meta.indieauthAuth }}">
 <link rel="token_endpoint" href="{{ meta.indieauthToken }}">
 {# Webmentions #}
@@ -49,11 +62,3 @@
 {#- RSS Feed #}
 {#- <link type="application/atom+xml" rel="alternate" href="{{ build.url }}/feed.xml" title="{{ meta.title }}"> #}
 {# <link rel="alternate" title="{{ meta.title }} JSON Feed" type="application/feed+json" href="/feed.json" /> #}
-{# Dev Mode #}
-    {% if helpers.environment === "development" %}
-       <div class="announcement" aria-label="">
-        <p class="text-center">
-		      <span class="emoji">🚧</span> This site is currently running in development mode.<span class="emoji">🚧</span>
-        </p>
-      </div>
-    {% endif %}

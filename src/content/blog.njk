@@ -1,6 +1,6 @@
 ---
 title: My Posts
-permalink: /blog/index.html
+permalink: blog/index.html
 date: 2020-08-05
 layout: layouts/page.njk
 eleventyExcludeFromCollections: false
@@ -23,3 +23,4 @@ seo:
 {% set postlist = ['components/', structure.postListStyle, '.njk'] %}
 {% include postlist | join %}
 
+<p>See more blog posts in the <a href="/blog/archives/index.html">archives</a>.</p>
