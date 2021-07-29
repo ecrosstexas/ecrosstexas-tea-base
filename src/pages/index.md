@@ -1,5 +1,6 @@
 ---
 title: Howdy!
+permalink: /index.html
 layout: layouts/home.njk
 eleventyNavigation:
   key: main
