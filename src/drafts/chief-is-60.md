@@ -2,12 +2,12 @@
 title: Chief is turning 60 # will be overwritten by SEO.title below
 description:
 permalink: /chief-is-60/index.html
-date: 
+date:
 layout: page
-body_class: 
+body_class:
 seo:
   title: # overrides 'title' above on both Page and META
-  description: 
+  description:
   image:
 tags:
  - Chiefis60
@@ -15,7 +15,7 @@ tags:
 
 That's right, Milton Wallace, is turning 60 years old on August 31.  We are hosting a **suprise** birthday party for him.
 
-<a href="http://www.flickr.com/photos/ecrosstexas/29398170/" title="Photo Sharing"><img src="http://static.flickr.com/21/29398170_274ddb3366_m.jpg" width="180" height="240" alt="Chief and the Girls" align="right" /></a>
+<a href="https://www.flickr.com/photos/ecrosstexas/29398170/" title="Photo Sharing"><img src="https://live.staticflickr.com/21/29398170_15b6f54d35_w_d.jpg" alt="Chief and the Girls" align="right" /></a>
 
 ## Details
 <div class="vevent"><p><b>What:</b>
