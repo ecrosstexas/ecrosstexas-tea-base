@@ -7,3 +7,24 @@
 
 [[plugins]]
   package = "netlify-plugin-cache-folder"
+
+# Bots
+[[redirects]]
+    from = "/wp-login.php"
+    to = "https://www.google.com/"
+    status = 302
+    force = true
+
+ # Blog Posts
+[[redirects]]
+    from = "/posts/*"
+    to = "/blog/:splat"
+    status = 301
+    force = true
+
+# Blog Posts
+[[redirects]]
+    from = "/xmas.php"
+    to = "/xmas-2001/"
+    status = 301
+    force = true
