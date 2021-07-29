@@ -1,7 +1,0 @@
-{
-	"layout": "layouts/log.njk",
-	"permalink": "log/{{ title | slugify }}/index.html",
-	"tags": "log",
-	"author": "{{ meta.author }}",
-	"type": "article"
-}
