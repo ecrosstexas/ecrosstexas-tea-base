@@ -17,15 +17,19 @@ tags: post
       <time datetime="{{ date | dateToFormat("yyyy-MM-dd") }}">
         {{ date | dateToFormat("dd LLL yyyy") }}
       </time>
-      {%- for tag in tags | filterTagList -%}
-      {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset -%}
-      <a href="{{ tagUrl | url }}" class="post-tag">#{{ tag }}</a>
-      {%- endfor %}
     </small>
   </p>
 
   {{ layoutContent | safe }}
 
+<section>
+<ol>
+      {%- for tag in tags | filterTagList -%}
+      {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset -%}
+      <li><a href="{{ tagUrl | url }}" class="post-tag">#{{ tag }}</a></li>
+      {%- endfor %}
+      </ol>
+</section>
 <section>
   <h2>Webmentions</h3>
   {% set webmentionUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
