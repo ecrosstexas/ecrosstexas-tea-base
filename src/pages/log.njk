@@ -1,0 +1,22 @@
+---
+title: Captain's Log
+permalink: /log/index.html
+date: 2021-07-29
+layout: layouts/page.njk
+eleventyExcludeFromCollections: true
+
+seo:
+  title:
+  description:
+---
+
+{% set postslist = collections.log %}
+
+{#
+  Allows a user to easily change the Post List Style.
+  Change the 'postListStyle' value in /_data/structure.json.
+  NOTE: Can make this a select in the CMS?
+#}
+{% set postlist = ['components/', structure.postListStyle, '.njk'] %}
+{% include postlist | join %}
+
