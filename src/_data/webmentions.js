@@ -1,7 +1,7 @@
 const fetch = require('node-fetch')
 const unionBy = require('lodash/unionBy')
 const domain = require('./meta.json').domain
-const { readFromCache, writeToCache } = require('../_11ty/helpers')
+const { readFromCache, writeToCache } = require('../_11ty/utils/webmentions.js')
 
 // Define Cache Location and API Endpoint
 const CACHE_FILE_PATH = '_cache/webmentions.json'

@@ -4,9 +4,9 @@ const pluginNavigation  = require('@11ty/eleventy-navigation')
 const syntaxHighlight   = require('@11ty/eleventy-plugin-syntaxhighlight')
 
 
-const filters           = require('./src/_11ty/filters.js')
-const shortcodes        = require('./src/_11ty/shortcodes.js')
-const pairedshortcodes  = require('./src/_11ty/paired-shortcodes.js')
+const filters           = require('./src/_11ty/filters/filters.js')
+const shortcodes        = require('./src/_11ty/shortcodes/shortcodes.js')
+const pairedshortcodes  = require('./src/_11ty/shortcodes/paired-shortcodes.js')
 
 
 module.exports = function (eleventyConfig) {
@@ -17,8 +17,8 @@ module.exports = function (eleventyConfig) {
 	 */
 	eleventyConfig.addPlugin(pluginRss)
 	eleventyConfig.addPlugin(pluginNavigation)
-  	eleventyConfig.addPlugin(syntaxHighlight)
-	eleventyConfig.addPlugin(require("@mikestreety/11ty-utils"))  
+  eleventyConfig.addPlugin(syntaxHighlight)
+	eleventyConfig.addPlugin(require("@mikestreety/11ty-utils"))
 
 
 
@@ -60,9 +60,9 @@ module.exports = function (eleventyConfig) {
 	 */
 	eleventyConfig.addCollection('post', (collection) => {
 		if (process.env.ELEVENTY_ENV !== 'production')
-			return [...collection.getFilteredByGlob('./src/posts/*.md')]
+			return [...collection.getFilteredByGlob('./src/content/posts/*.md')]
 		else
-			return [...collection.getFilteredByGlob('./src/posts/*.md')].filter((post) => !post.data.draft)
+			return [...collection.getFilteredByGlob('./src/content/posts/*.md')].filter((post) => !post.data.draft)
 	})
 
 /**
@@ -71,7 +71,7 @@ module.exports = function (eleventyConfig) {
  * Ripped from Eleventy Base Blog
  * */
  function filterTagList(tags) {
-  return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+  return (tags || []).filter(tag => ["all", "nav", "post", "posts", "page", "pages", "note", "notes", "log"].indexOf(tag) === -1);
 }
 
 eleventyConfig.addFilter("filterTagList", filterTagList)

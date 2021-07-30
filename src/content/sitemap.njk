@@ -1,27 +1,20 @@
 ---
-title: Site Map
-description: A site map for humans
-permalink: /sitemap/index.html
-layout: page
-eleventyNavigation:
-  key: main
-  title: Site Map # as it will appear in the nav
-  order: 6    # order to display in the nav
-tags:
-- pages
+# http://www.sitemaps.org/
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
 ---
-<h2>Pages</h2>
-<ul>
-{% for page in collections.pages %}
-        <li><a href="{{ page.url | url }}">{{ page.data.seo.title or page.data.title }}</a></li>
-    {% endfor %}
-</ul>
-
-<h2>Blog Posts</h2>
-<ul>
-{% for page in collections.post %}
-        <li><a href="{{ page.url | url }}">{{ page.data.seo.title or page.data.title }}</a></li>
-    {% endfor %}
-</ul>
-
-<p>A <a href="/sitemap.xml">site map for robots</a> is also available.</p>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    {%- for item in collections.all %}
+    {%- if (item.data.excludeFromSitemap !== true) and (item.data.draft !== true) %}
+        <url>
+            <loc>{{ meta.url }}{{ item.url }}</loc>
+            {# <lastmod>{{ page.date.toISOString() }}</lastmod> #}
+            <lastmod>{{ item.data.updated or item.date }}</lastmod>
+            <changefreq>monthly</changefreq>
+		    <priority>0.5</priority>
+        </url>
+    {%- endif %}
+    {%- endfor %}
+</urlset>
+{# see https://gitlab.com/mikestreety/mikestreety/-/blob/master/app/content/additional-config/sitemap.njk #} 

@@ -13,6 +13,7 @@ images: # relative to /src/assets/images/
   thumb: # used for collections listing view
   slide:
 tags:
+  - PCAGA
   - PCA
   - Elders
 ---
