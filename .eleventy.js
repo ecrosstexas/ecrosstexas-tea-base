@@ -3,7 +3,6 @@ const pluginRss         = require('@11ty/eleventy-plugin-rss')
 const pluginNavigation  = require('@11ty/eleventy-navigation')
 const syntaxHighlight   = require('@11ty/eleventy-plugin-syntaxhighlight')
 
-
 const filters           = require('./src/_11ty/filters/filters.js')
 const shortcodes        = require('./src/_11ty/shortcodes/shortcodes.js')
 const pairedshortcodes  = require('./src/_11ty/shortcodes/paired-shortcodes.js')
@@ -58,12 +57,14 @@ module.exports = function (eleventyConfig) {
 	 * If "false" or NULL it will be published in PRODUCTION.
 	 * Every Post will ALWAYS be published in DEVELOPMENT so you can preview locally.
 	 */
+
+
 	eleventyConfig.addCollection('post', (collection) => {
-		if (process.env.ELEVENTY_ENV !== 'production')
-			return [...collection.getFilteredByGlob('./src/content/posts/*.md')]
-		else
-			return [...collection.getFilteredByGlob('./src/content/posts/*.md')].filter((post) => !post.data.draft)
-	})
+	if (process.env.ELEVENTY_ENV !== 'production')
+  return [...collection.getFilteredByGlob(['./src/content/posts/*.md','./src/content/posts/wp-archives/*.md'])]
+	else
+		return [...collection.getFilteredByGlob(['./src/content/posts/*.md','./src/content/posts/wp-archives/*.md'])].filter((post) => !post.data.draft)
+  })
 
 /**
  * Tags
