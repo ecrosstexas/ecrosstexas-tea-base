@@ -14,21 +14,40 @@ site_url: https://www.ecrosstexas.com/
 display_url: https://www.ecrosstexas.com/
 logo_url: https://www.ecrosstexas.com/img/apple-touch-icon-76x76.png
 
+# Uncomment below to enable drafts
 # publish_mode: editorial_workflow
 
 media_folder: 'src/assets/images/' # Media files will be stored in the repo under src/assets/images/posts
 public_folder: '/assets/images/' # The src attribute for uploaded media will begin with assets/images/uploads
 
 collections:
-  - label: "Blog" # Used in the UI
-    name: "blog" # Used in routes, e.g., /admin/collections/blog
-    folder: "src/blog/posts" # The path to the folder where the documents are stored
+  # Our blog posts
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}/{{month}}/{{slug}}" # Filename template, e.g., YYYY/MM/title.md
-    editor:
-      preview: false # Disable the editor preview and use instead 'preview links'
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { name: "title", label: "Title" }
-      - { name: "description", label: "Description" }
-      - { name: "date", label: "Date", widget: "datetime" }
-      - { name: "body", label: "Body", widget: "markdown" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Anonymous" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Body", name: "body", widget: "markdown" }
+  # Our pages e.g. About
+  - name: "pages"
+    label: "Page"
+    folder: "pages"
+    create: false # Change to true to allow editors to create new pages
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+        name: "eleventyNavigation"
+        widget: "object"
+        fields:
+          - { label: "Key", name: "key", widget: "string" }
+          - { label: "Order", name: "order", widget: "number", default: 0 }
+      - { label: "Body", name: "body", widget: "markdown" }
