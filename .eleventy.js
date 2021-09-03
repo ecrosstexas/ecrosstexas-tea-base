@@ -1,7 +1,8 @@
-const { DateTime } = require("luxon");
+const { DateTime } 		= require("luxon");
 const pluginRss         = require('@11ty/eleventy-plugin-rss')
 const pluginNavigation  = require('@11ty/eleventy-navigation')
 const syntaxHighlight   = require('@11ty/eleventy-plugin-syntaxhighlight')
+const embeds 			= require("eleventy-plugin-embed-everything");
 
 const filters           = require('./src/_11ty/filters/filters.js')
 const shortcodes        = require('./src/_11ty/shortcodes/shortcodes.js')
@@ -16,8 +17,9 @@ module.exports = function (eleventyConfig) {
 	 */
 	eleventyConfig.addPlugin(pluginRss)
 	eleventyConfig.addPlugin(pluginNavigation)
-  eleventyConfig.addPlugin(syntaxHighlight)
+	eleventyConfig.addPlugin(syntaxHighlight)
 	eleventyConfig.addPlugin(require("@mikestreety/11ty-utils"))
+	eleventyConfig.addPlugin(embeds);
 
 
 
