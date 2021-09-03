@@ -53,11 +53,10 @@ https://twitter.com/TGC/status/565528584182571008
 
 - 50 Things to Know About “Fifty Shades of Grey”
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/okcS6IW9VF0" frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/embed/okcS6IW9VF0
 
 - 4 Lies About Sexuality in Fifty Shades of Grey
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dD0SS3_HLSI" frameborder="0" allowfullscreen></iframe>
-
+https://www.youtube.com/embed/dD0SS3_HLSI
 
 Do you still want to go see this filth?
