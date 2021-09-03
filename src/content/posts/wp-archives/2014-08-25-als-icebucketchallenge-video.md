@@ -23,7 +23,7 @@ We love Uncle Ken Serpas and pray for God's mercy in his battle with ALS.
 
 We have issued our own challenge to [John Sharber](https://www.facebook.com/john.sharber.94) and [Ami Gunter](https://www.facebook.com/ami.gunter).
 
-<iframe width="640" height="360" src="//www.youtube.com/embed/3xAURuUYJTI?list=UU0jHV66HdGVPCUJIG1EbLSQ" frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/embed/3xAURuUYJTI?list=UU0jHV66HdGVPCUJIG1EbLSQ"
 
 ## Mentioned
 
