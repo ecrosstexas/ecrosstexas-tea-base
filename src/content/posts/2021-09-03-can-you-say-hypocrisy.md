@@ -1,5 +1,5 @@
 ---
-title: Can you say Hypocrisy?
+title: Can you say hypocrisy?
 date: 2021-09-03
 author: Eric Wallace
 excerpt:
@@ -22,6 +22,6 @@ First this one pointing out the hypocrisy of those saying the unvaccinated shoul
 
 https://twitter.com/KenMatthews/status/1433789062276698113?s=20
 
-And then this one pointing out the hypocrisy in the abortion debate:
+And then this one pointing out the hypocrisy in the current vaccination debate:
 
 https://twitter.com/AdamPilger_1160/status/1433597657369522188?s=20
