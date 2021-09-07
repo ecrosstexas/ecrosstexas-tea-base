@@ -19,7 +19,7 @@ tags:
 
 We all dread the message...
 
-{% image "uploads/Screen-Shot-2018-02-23-at-1.45.47-PM.png", "iPhone Storage Full Warning" %}
+
 
 Google even made a [commercial](https://www.youtube.com/watch?v=Fi2MUL0hNNs "Google Photos: Free Up Space") making fun of us iPhone users.
 
