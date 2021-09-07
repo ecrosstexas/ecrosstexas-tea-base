@@ -24,11 +24,11 @@ The announcement of iOS 8's [Family Sharing](http://www.apple.com/ios/whats-new/
 
 Yesterday, we began the process of upgrading our devices and upgrading 2 of our 3 iPhones. Things seemed to go pretty easy setting up my wife's iPhone. I had (accidentally) left my Apple ID as the iTunes user ID when restoring from the backup and accepted the Family Sharing invitation for her Apple ID. She has full access to all the media we have purchased.
 
-Setting up my daughter's phone has been another story entirely. I followed the same process to back up her old iPhone and restore to her new iPhone. I signed into her Apple ID account for iClould and accepted the Family Sharing invite. I used her Apple ID to initially sign into iTunes. Going to the App Store > All Purchases does NOT bring up the list of expected family members and our "Family Purchases". So I changed the iTunes ID on her phone to my Apple ID. At this point the Apple Store appears completely borked. I get a message saying that her iTunes account is tied to a different iCloud account. [![IMG_4641](images/IMG_4641-575x1024.png)](http://ecrosstexas.com/blog/wp-content/uploads/2014/09/IMG_4641.png)
+Setting up my daughter's phone has been another story entirely. I followed the same process to back up her old iPhone and restore to her new iPhone. I signed into her Apple ID account for iClould and accepted the Family Sharing invite. I used her Apple ID to initially sign into iTunes. Going to the App Store > All Purchases does NOT bring up the list of expected family members and our "Family Purchases". So I changed the iTunes ID on her phone to my Apple ID. At this point the Apple Store appears completely borked. I get a message saying that her iTunes account is tied to a different iCloud account. {% image "uploads/IMG_4641.png", "" %}
 
 Another oddity, while I am getting this message (and unable to see my purchase history), I can download apps previously purchased with my Apple ID. If you try to buy a new app, you get the Ask Permission dialog box.
 
-After several hours I changed her iTunes ID back to her iCloud account ID and she can now see all the media as expected. [![IMG_5422](images/IMG_5422-575x1024.png)](http://ecrosstexas.com/blog/wp-content/uploads/2014/09/IMG_5422.png)
+After several hours I changed her iTunes ID back to her iCloud account ID and she can now see all the media as expected. {% image "uploads/IMG_5422.png", "" %}
 
 I honestly have no idea what is going on and if I want to continue using Family Sharing.
 

@@ -15,7 +15,7 @@ images: # relative to /src/assets/images/
 tags:
     - KleinHighAlumni
 ---
-I was shocked to see posts about Chad Darbyshire's untimely death this weekend. Chad is a fellow Bearkat (KHS 1990) and a brother in Christ. Chad leaves behind a wife, three children, and hosts of friends heartbroken at the loss. A [GoFundMe campaign](https://gofund.me/3b73e7be) has been created for the family.
+I was shocked to see posts about Chad Darbyshire's untimely death this weekend. Chad is a fellow Bearkat (KHS 1990) and a brother in Christ. Chad leaves behind a wife, three children, and hosts of friends heartbroken at the loss. A [GoFundMe campaign](https://gofund.me/3b73e7be) has been created to support the family.
 
 <div class="gfm-embed" data-url="https://www.gofundme.com/f/darbyshire/widget/large/"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
 

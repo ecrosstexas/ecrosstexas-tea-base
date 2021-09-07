@@ -1,15 +1,66 @@
 const { DateTime } 		= require("luxon");
+const Image 			= require("@11ty/eleventy-img");
 const pluginRss         = require('@11ty/eleventy-plugin-rss')
 const pluginNavigation  = require('@11ty/eleventy-navigation')
 const syntaxHighlight   = require('@11ty/eleventy-plugin-syntaxhighlight')
 const embeds 			= require("eleventy-plugin-embed-everything");
+const path 				= require('path')
 
 const filters           = require('./src/_11ty/filters/filters.js')
 const shortcodes        = require('./src/_11ty/shortcodes/shortcodes.js')
 const pairedshortcodes  = require('./src/_11ty/shortcodes/paired-shortcodes.js')
 
+async function imageShortcode(src, alt) {
+	let sizes = "(min-width: 1024px) 100vw, 50vw"
+	let srcPrefix = `./src/assets/images/`
+	src = srcPrefix + src
+	console.log(`Generating image(s) from:  ${src}`)
+	if(alt === undefined) {
+	  // Throw an error on missing alt (alt="" works okay)
+	  throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`)
+	}
+	let metadata = await Image(src, {
+	  widths: [600, 900, 1500],
+	  formats: ['webp', 'jpeg'],
+	  urlPath: "/images/",
+	  outputDir: "./_site/images/",
+	  /* =====
+	  Now we'll make sure each resulting file's name will
+	  make sense to you. **This** is why you need
+	  that `path` statement mentioned earlier.
+	  ===== */
+	  filenameFormat: function (id, src, width, format, options) {
+		const extension = path.extname(src)
+		const name = path.basename(src, extension)
+		return `${name}-${width}w.${format}`
+	  }
+	})
+	let lowsrc = metadata.jpeg[0]
+	let highsrc = metadata.jpeg[metadata.jpeg.length - 1]
+	return `<picture>
+	  ${Object.values(metadata).map(imageFormat => {
+		return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`
+	  }).join("\n")}
+	  <img
+		src="${lowsrc.url}"
+		width="${highsrc.width}"
+		height="${highsrc.height}"
+		alt="${alt}"
+		loading="lazy"
+		decoding="async">
+	</picture>`
+  }
+
 
 module.exports = function (eleventyConfig) {
+
+	/**
+	 * Eleventy Image
+	 */
+	eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode)
+  	eleventyConfig.addLiquidShortcode("image", imageShortcode)
+  	// === Liquid needed if `markdownTemplateEngine` **isn't** changed from Eleventy default
+  	eleventyConfig.addJavaScriptFunction("image", imageShortcode)
 
  	/**
 	 * Plugins
@@ -116,10 +167,10 @@ eleventyConfig.addFilter("readableDate", dateObj => {
 	eleventyConfig.addPassthroughCopy('src/*.png')
 	eleventyConfig.addPassthroughCopy('src/*.jpg')
 	eleventyConfig.addPassthroughCopy('src/*.ico')
-	eleventyConfig.addPassthroughCopy('src/assets/images/')
-	eleventyConfig.addPassthroughCopy('src/assets/svg/')
-	eleventyConfig.addPassthroughCopy('src/assets/css/prism*.css')
-  eleventyConfig.addPassthroughCopy("src/content/admin");
+	eleventyConfig.addPassthroughCopy({'src/assets/images/': '/images'})
+	eleventyConfig.addPassthroughCopy({'src/assets/svg/': '/svg'})
+	eleventyConfig.addPassthroughCopy({'src/assets/css/prism*.css': '/css'})
+  	eleventyConfig.addPassthroughCopy({'src/content/admin': '/admin'});
 
   /**
 	 * Add layout aliases

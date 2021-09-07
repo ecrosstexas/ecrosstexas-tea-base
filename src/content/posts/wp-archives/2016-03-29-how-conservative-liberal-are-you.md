@@ -19,7 +19,7 @@ tags:
 
 Curious to see where your views fall along the political spectrum? Take [this short quiz](http://brainfall.com/quizzes/how-conservative-liberal-are-you/0v9m853/?utm_source=16-03-21-16&utm_medium=ppc&utm_campaign=3-18-16-conservativeliberal-ntfan-w&utm_term=17&utm_content=Very%20Right%20Wing).
 
-[![Curious to see where your views fall along the political spectrum?](images/Screen-Shot-2016-03-29-at-10.34.11-AM.png)](http://brainfall.com/quizzes/how-conservative-liberal-are-you/0v9m853/?utm_source=16-03-21-16&utm_medium=ppc&utm_campaign=3-18-16-conservativeliberal-ntfan-w&utm_term=17&utm_content=Very%20Right%20Wing)
+{% image "uploads/Screen-Shot-2016-03-29-at-10.34.11-AM.png", "Curious to see where your views fall along the political spectrum?" %}
 
 My results?
 

@@ -26,7 +26,7 @@ Fellow Ruling Elders, I encourage you in the name of our great God and Savior, J
 - NTP May 7-8, 2021 @ [Redeemer McKinney](https://www.redeemermckinney.com/)
 - 48th GA June 28-July 2, 2021 @ [America's Center](https://explorestlouis.com/meetings-conventions/americas-center/), St. Louis, MO
 - NTP August 13-14, 2021 @ [Trinity Presbyterian Church](https://www.trinityplano.org), Plano, TX
-- NTP November 5-6, 2021 @ TBD
+- NTP November 5-6, 2021 @ [Park Cities Presbyterian Church](https://pcpc.org/), Dallas, TX
 - 49th GA June 20 – June 24, 2022 @ Birmingham, AL
 - 50th GA June 13 – 16, 2023 @ Memphis, TN
 
