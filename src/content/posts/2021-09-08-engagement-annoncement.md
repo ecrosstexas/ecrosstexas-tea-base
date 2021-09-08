@@ -1,13 +1,13 @@
 ---
 title: The Engagement of Emma Wallace and Zachary Seider
-date: 2021-09-07
+date: 2021-09-08
 author: Eric Wallace
 excerpt:
 draft: false
 seo:
   title: # if left blank, title above used
-  description: # if left blank, excerpt above used
-  image: uploads/IMG_3255.jpeg
+  description: Announcement of the Engagement of Emma Wallace and Zachary Seider
+  image: ../../images/uploads/IMG_3255.jpeg
 images: # relative to /src/assets/images/
   feature: # used for hero
   thumb: # used for collections listing view
