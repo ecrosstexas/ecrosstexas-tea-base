@@ -33,3 +33,8 @@ Here is a look at free Christian resources available this month:
 
 - H&E Publishing [free book](https://hesedandemet.com/free/) is *Defending Jesus' Crucifixion against Islamic Revision*
     > The truth of Jesus' crucifixion, one of the most verifiable events in history, has been challenged by Muslims since the creation of Islam and the writing of the Qur'an. Muslims believe there was a crucifixion, but the majority deny that it was Jesus who was the one crucified. 
+
+- Crossway [free book](https://mailchi.mp/crossway/free-ebook-awe) is *Awe: Why It Matters for Everything We Think, Say, and Do*.
+    > Our hearts are always captured by something—that’s how God made us. But sin threatens to distract us from the glory of our Creator. All too often, we stand in awe of everything but God.
+    >
+    > Uncovering the lies we believe about all the earthly things that promise us peace, life, and contentment, Paul Tripp redirects our gaze to God’s awe-inducing glory—showing how such a vision has the potential to impact our every thought, word, and deed.
