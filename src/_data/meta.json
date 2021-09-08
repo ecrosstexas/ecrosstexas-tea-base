@@ -1,11 +1,11 @@
 {
 	"title": "ecrosstexas.com",
-	"description": "Eric Wallace is a digital rancher based in Plano, Texas.",
+	"description": "The personal website of Eric Wallace, a digital rancher in Plano, Texas.",
 	"lang": "en",
 	"locale": "en_us",
 	"domain": "ecrosstexas.com",
 	"url": "https://www.ecrosstexas.com",
-	"repo": "https://github.com/ecrosstexas/ecrosstexas-tea-base", 
+	"repo": "https://github.com/ecrosstexas/ecrosstexas-tea-base",
 	"author": "Eric Wallace",
 	"authorEmail": "ecrosstexas@gmail.com",
 	"authorUrl": "https://www.ecrosstexas.com/eric/",
