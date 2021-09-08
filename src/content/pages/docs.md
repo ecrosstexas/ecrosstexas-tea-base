@@ -20,6 +20,11 @@ seo:
 - [11ty](https://www.11ty.dev/docs/)
 - [Eleventy Walk Through](https://rphunt.github.io/eleventy-walkthrough/)
 
+### Plugins
+#### Eleventy Image
+- [Official Image Docs](https://www.11ty.dev/docs/plugins/image/)
+- [Using Eleventy’s official image plugin](https://brycewray.com/posts/2021/04/using-eleventys-official-image-plugin/)
+
 ## Netlify
 
 - [Docs](https://docs.netlify.com)
@@ -32,10 +37,16 @@ seo:
 
 ### CSS
 
+- [Tailwind CSS](https://tailwindcss.com/docs)
+
 ### Markdown
 
 - [The Markdown Guide](https://www.markdownguide.org)
 - [John Gruber - creator of Markdown](https://daringfireball.net/projects/markdown/)
+
+### Emoji
+
+- [Emojipedia®](https://emojipedia.org)
 
 ## GitHub
 - [GitHub Docs](https://docs.github.com/en)
