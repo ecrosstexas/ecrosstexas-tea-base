@@ -21,9 +21,12 @@ seo:
 - [Eleventy Walk Through](https://rphunt.github.io/eleventy-walkthrough/)
 
 ### Plugins
+- [Eleventy Embed Everything](https://gfscott.com/embed-everything/)
+
 #### Eleventy Image
 - [Official Image Docs](https://www.11ty.dev/docs/plugins/image/)
 - [Using Eleventy’s official image plugin](https://brycewray.com/posts/2021/04/using-eleventys-official-image-plugin/)
+
 
 ## Netlify
 
