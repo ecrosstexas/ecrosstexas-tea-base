@@ -3,7 +3,7 @@ title: Free Books of the Month - September 2021
 date: 2021-09-09
 author: Eric Wallace
 excerpt:
-draft: false
+draft: true
 seo:
   title: # if left blank, title above used
   description: # if left blank, excerpt above used
