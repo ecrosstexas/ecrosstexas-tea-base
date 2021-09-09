@@ -15,9 +15,7 @@ images: # relative to /src/assets/images/
 tags:
     - KleinHighAlumni
 ---
-I was shocked to see posts about Chad Darbyshire's untimely death this weekend. Chad is a fellow Bearkat (KHS 1990) and a brother in Christ. Chad leaves behind a wife, three children, and hosts of friends heartbroken at the loss. A [GoFundMe campaign](https://gofund.me/3b73e7be) has been created to support the family.
-
-<div class="gfm-embed" data-url="https://www.gofundme.com/f/darbyshire/widget/large/"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
+I was shocked to see posts about Chad Darbyshire's [@ccdarbyshire](https://twitter.com/ccdarbyshire )untimely death this weekend. Chad is a fellow Bearkat (KHS 1990) and a brother in Christ. Chad leaves behind a wife, three children, and hosts of friends heartbroken at the loss. A [GoFundMe campaign](https://gofund.me/3b73e7be) has been created to support the family.
 
 I am reminded of Guy Waters writing about David Murray's book [Christians Get Depressed Too](https://www.ligonier.org/posts/christians-get-depressed-too):
 > Solomon reminds us that “the same event happens to the righteous and the wicked” (Eccl 9:2) – Christians are not immune from depression simply because they are Christians. Depression’s darkness, then, reaches far and wide.
@@ -25,3 +23,8 @@ I am reminded of Guy Waters writing about David Murray's book [Christians Get De
 Christ has conquered sin, death, and the devil. He is making all things new. Meanwhile, Chad's death is a reminder that this world severely broken. We wait between the already, and not yet. We weep today, but not as those who have no nope. We look forward to the day our resurrection, to the day Christ will wipe away every tear. Maranatha!
 
 Funeral arrangements are being planned.
+
+Elswhere:
+- See Chad's creative work on [Vimeo](https://vimeo.com/chaddarbyshire).
+- Chad Darbyshire on [IMDb](https://www.imdb.com/name/nm2155881/).
+- [Two of Mr. Darbyshire’s New Yorker colleagues, Matthew Diffee and Drew Dernavich remember their friend](https://michaelmaslin.com/chad-darbyshire-c-covert-darbyshire-is-remembered-by-matt-diffee-and-drew-dernavich/)
