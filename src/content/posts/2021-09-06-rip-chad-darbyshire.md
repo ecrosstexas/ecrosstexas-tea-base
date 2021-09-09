@@ -16,7 +16,7 @@ tags:
     - KleinHighAlumni
     - ChadDarbyshire
 ---
-I was shocked to see posts about Chad Darbyshire's [@ccdarbyshire](https://twitter.com/ccdarbyshire ) untimely death this weekend. Chad is a fellow Bearkat (KHS 1990) and a brother in Christ. Chad leaves behind a wife, three children, and hosts of friends heartbroken at the loss. A [GoFundMe campaign](https://gofund.me/3b73e7be) has been created to support the family.
+I was shocked to see posts about Chad Darbyshire's ([@ccdarbyshire](https://twitter.com/ccdarbyshire)) untimely death this weekend. Chad is a fellow Bearkat (KHS 1990) and a brother in Christ. Chad leaves behind a wife, three children, and hosts of friends heartbroken at the loss. A [GoFundMe campaign](https://gofund.me/3b73e7be) has been created to support the family.
 
 I am reminded of Guy Waters writing about David Murray's book [Christians Get Depressed Too](https://www.ligonier.org/posts/christians-get-depressed-too):
 > Solomon reminds us that “the same event happens to the righteous and the wicked” (Eccl 9:2) – Christians are not immune from depression simply because they are Christians. Depression’s darkness, then, reaches far and wide.
