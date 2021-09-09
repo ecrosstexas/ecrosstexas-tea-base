@@ -23,9 +23,18 @@ I am reminded of Guy Waters writing about David Murray's book [Christians Get De
 
 Christ has conquered sin, death, and the devil. He is making all things new. Meanwhile, Chad's death is a reminder that this world severely broken. We wait between the already, and not yet. We weep today, but not as those who have no nope. We look forward to the day our resurrection, to the day Christ will wipe away every tear. Maranatha!
 
-Funeral arrangements are being planned.
+~~Funeral arrangements are being planned.~~
+> If you would like to attend Chad's memorial, the details are below:
+> Memorial for Chad Darbyshire
+> Westover Hills Church of Christ
+> 8332 Mesa Dr.
+> Austin, TX 78759
+> Friday, September 10th
+> 5:30pm
+> 
+> Attire is come as you are.
 
-Elswhere:
+Elsewhere:
 - See Chad's creative work on [Vimeo](https://vimeo.com/chaddarbyshire).
 - Chad Darbyshire on [IMDb](https://www.imdb.com/name/nm2155881/).
 - [Two of Mr. Darbyshire’s New Yorker colleagues, Matthew Diffee and Drew Dernavich remember their friend](https://michaelmaslin.com/chad-darbyshire-c-covert-darbyshire-is-remembered-by-matt-diffee-and-drew-dernavich/)
