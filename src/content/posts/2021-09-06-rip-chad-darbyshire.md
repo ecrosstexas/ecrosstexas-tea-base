@@ -24,13 +24,13 @@ I am reminded of Guy Waters writing about David Murray's book [Christians Get De
 Christ has conquered sin, death, and the devil. He is making all things new. Meanwhile, Chad's death is a reminder that this world severely broken. We wait between the already, and not yet. We weep today, but not as those who have no nope. We look forward to the day our resurrection, to the day Christ will wipe away every tear. Maranatha!
 
 ~~Funeral arrangements are being planned.~~
-> If you would like to attend Chad's memorial, the details are below:
-> Memorial for Chad Darbyshire
-> Westover Hills Church of Christ
-> 8332 Mesa Dr.
-> Austin, TX 78759
-> Friday, September 10th
-> 5:30pm
+> If you would like to attend Chad's memorial, the details are below:<br>
+> Memorial for Chad Darbyshire<br>
+> [Westover Hills Church of Christ](https://westover.org/)<br>
+> 8332 Mesa Dr<br>
+> Austin, TX 78759<br>
+> Friday, September 10th<br>
+> 5:30pm<br>
 > 
 > Attire is come as you are.
 
