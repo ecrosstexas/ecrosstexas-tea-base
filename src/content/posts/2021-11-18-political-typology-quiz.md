@@ -16,6 +16,8 @@ tags:
     - politics
     - quiz
 ---
+{% image "uploads/political-typology-quiz.jpg", "Where do you fit in the political typology?" %}
+
 According to the [Pew Research Center](https://www.pewresearch.org), my best fit is...
 
 Ambivalent Right
