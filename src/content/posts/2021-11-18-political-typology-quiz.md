@@ -28,4 +28,4 @@ Read more about [Ambivalent Right](https://www.pewresearch.org/politics/2021/11/
 
 View interactive charts to [see how the Political Typology groups compare](https://www.pewresearch.org/politics/interactives/political-typology-comparison-2021/).
 
-How about you?
+[How about you](https://www.pewresearch.org/politics/quiz/political-typology/)?
