@@ -7,13 +7,14 @@ draft: false
 seo:
   title: # if left blank, title above used
   description: # if left blank, excerpt above used
-  image: ../../images/uploads/political-typology-quiz.png
+  image: ../../images/uploads/political-typology-quiz.jpg
 images: # relative to /src/assets/images/
   feature: # used for hero
   thumb: # used for collections listing view
   slide:
 tags:
     - politics
+    - quiz
 ---
 According to Pew Research, my best fit is...
 
