@@ -21,4 +21,5 @@ seo:
 ## mediums:
 - email: ERIC at ECROSSTEXAS dot COM, *[public PGP key](/pgp-key.txt) for those who need it*
 - twitter: [@ecrosstexas](https://www.twitter.com/ecrosstexas)
+- mastodon: [mastodon.social/@ecrosstexas](https://mastodon.social/@ecrosstexas)
 - telegram: [t.me/ecrosstexas](https://t.me/ecrosstexas)
