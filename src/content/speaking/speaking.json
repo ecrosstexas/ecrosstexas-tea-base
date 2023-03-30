@@ -1,0 +1,6 @@
+{
+	"layout": "page",
+	"tags": "speaking",
+	"author": "{{ site.author }}",
+	"type": "article"
+}
